@@ -61,3 +61,8 @@ header {
   text-align: center;
 }
 
+.info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
