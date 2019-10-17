@@ -9,3 +9,33 @@ html {
 *::before {
   box-sizing: inherit;
 }
+
+.container {
+  width: 95%;
+  margin: auto;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: auto;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  grid-row: 1;
+  grid-column: span 4;
+}
+
+#social-media {
+  grid-column: 3;
+}
+
+.social-media-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.jumbo-tron {
+  grid-column: 2;
+}
