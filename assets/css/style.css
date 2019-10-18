@@ -4,6 +4,8 @@ html {
   box-sizing: border-box;
   font-size: 1rem;
   width: 100%;
+  font-family: "Great Vibes", cursive;
+  background: rgb(118, 79, 50);
 }
 
 *,
@@ -79,10 +81,25 @@ header {
   display: flex;
   margin: 10px;
   justify-content: space-between;
+  background: rgba(191, 102, 34, 0.303);
+  height: 40px;
+  align-items: center;
+  border: rgba(225, 222, 222, 0.413) 1px solid;
+  border-radius: 10px;
+  padding: 5px;
 }
 
 .nav-bar button {
   width: 100px;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+  outline: none;
+  background: rgb(118, 79, 50);
+  color: white;
+  font-size: 1.2rem;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
 }
 /* ----------------- Nav-Bar ----------------- */
 
