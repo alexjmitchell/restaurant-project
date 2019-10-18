@@ -20,11 +20,48 @@ dt {
   color: black;
   background: white;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
   text-align: center;
   font-size: 3rem;
 }
 
+.menu-appetizers {
+}
+
+.menu-appetizers dd {
+}
+
 .menu-price {
-  text-align: center;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+
+.allergy ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.allergy li {
+  margin: 5px;
+}
+
+.fa-exclamation-circle {
+  color: rgb(222, 190, 13);
+}
+
+.fa-pepper-hot {
+  color: rgba(18, 124, 18, 0.906);
+}
+
+.fa-bread-slice {
+  color: rgb(172, 146, 113);
+}
+
+.fa-carrot {
+  color: rgb(216, 86, 38);
 }
