@@ -15,9 +15,9 @@ html {
 }
 
 .container {
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
-  background: black;
+  /* background: black; */
   color: white;
 }
 
@@ -25,27 +25,20 @@ html {
 
 /* ----------------- Header ----------------- */
 header {
-  margin-top: 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
 
-/* .jumbo-tron {
-  background: blue;
-  width: 400px;
-  height: 200px;
+.icons img {
+  width: 32px;
+  height: auto;
 }
-
-.jumbo-tron img {
-  width: 100%;
-  height: 100%;
-} */
 
 #social-media {
   margin: 5px;
-  
+  width: auto;
 }
 
 #social-media ul {
@@ -58,6 +51,7 @@ header {
 .social-media-links li {
   display: flex;
   justify-content: flex-end;
+  margin: 2px;
 }
 
 .social-media-links:nth-child(1) {
@@ -65,7 +59,7 @@ header {
 }
 
 .logo {
-  font-family: 'Great Vibes', cursive;
+  font-family: "Great Vibes", cursive;
   font-size: 60px;
   border: 1px solid transparent;
   color: white;
@@ -96,11 +90,9 @@ header {
   border: rgba(225, 222, 222, 0.413) 1px solid;
   border-radius: 10px;
   padding: 5px;
-
 }
 
 .nav-bar button {
-  width: 100px;
   border-radius: 10px;
   font-family: "Open Sans", sans-serif;
   cursor: pointer;
@@ -118,7 +110,7 @@ header {
   margin: 10px 0;
 }
 .banner-img img {
-  width: 1410px;
+  width: 100%;
   height: 400px;
 }
 
@@ -128,15 +120,14 @@ header {
 .special {
   width: 100%;
   text-align: center;
-  font-family: 'Great Vibes', cursive;
+  font-family: "Great Vibes", cursive;
   font-size: 50px;
 }
 
 #desc {
   font-size: 20px;
-  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-family: "Arial", "Helvetica", sans-serif;
 }
-
 
 /* ----------------- Main-Content ----------------- */
 
