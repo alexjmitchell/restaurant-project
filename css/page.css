@@ -3,6 +3,7 @@ html {
   font-size: 1rem;
   width: 100%;
 
+
   background-image: url("../images/mainbgjpg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -52,6 +53,7 @@ header {
   margin: 2px;
 }
 
+
 .social-media-links:nth-child(1) {
   color: white;
 }
@@ -62,6 +64,7 @@ header {
   border: 1px solid transparent;
   color: white;
   border-radius: 1000px;
+
   width: 90%;
   text-align: right;
   margin-top: 10px;
@@ -72,6 +75,7 @@ header {
   background-size: 101%;
   background-repeat: no-repeat;
 }
+
 
   .nav-bar {
     display: flex;
@@ -98,11 +102,11 @@ header {
     border-radius: 10px;
   }
 
-  h1 {
-      text-align: center;
-      font-family: 'Great Vibes', cursive;
-      font-size: 40px;
-  }
+h1 {
+  text-align: center;
+  font-family: "Great Vibes", cursive;
+  font-size: 40px;
+}
 
   #writing {
       width: 500px;
@@ -132,3 +136,4 @@ header {
     display: flex;
     justify-content: space-evenly;
   }
+
