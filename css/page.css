@@ -3,10 +3,12 @@ html {
   font-size: 1rem;
   width: 100%;
 
+
   background-image: url("../images/mainbgjpg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 *,
 *::after,
 *::before {
@@ -14,23 +16,28 @@ html {
 }
 
 .container {
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
   /* background-image: url("../images/main-bg-img.jpg"); */
+  /* background: black; */
   color: white;
 }
 
 header {
-  margin: auto;
-  margin-top: 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
 
+.icons img {
+  width: 32px;
+  height: auto;
+}
+
 #social-media {
   margin: 5px;
+  width: auto;
 }
 
 #social-media ul {
@@ -43,7 +50,9 @@ header {
 .social-media-links li {
   display: flex;
   justify-content: flex-end;
+  margin: 2px;
 }
+
 
 .social-media-links:nth-child(1) {
   color: white;
@@ -55,16 +64,43 @@ header {
   border: 1px solid transparent;
   color: white;
   border-radius: 1000px;
-  width: 1373px;
+
+  width: 90%;
   text-align: right;
-  margin: auto;
+  margin-top: 10px;
   padding-right: 25px;
   background-image: url(../images/logo.jpg);
   background-position-x: -2px;
-  background-position-y: -1345px;
+  background-position-y: -1091px;
   background-size: 101%;
   background-repeat: no-repeat;
 }
+
+
+  .nav-bar {
+    display: flex;
+    margin: 10px;
+    margin-top: 30px;
+    justify-content: space-evenly;
+    background: rgba(191, 102, 34, 0.303);
+    height: 40px;
+    align-items: center;
+    border: rgba(225, 222, 222, 0.413) 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  
+  .nav-bar button {
+    border-radius: 10px;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    outline: none;
+    background: rgb(118, 79, 50);
+    color: white;
+    font-size: 1.2rem;
+    height: 30px;
+    border-radius: 10px;
+  }
 
 h1 {
   text-align: center;
@@ -72,23 +108,32 @@ h1 {
   font-size: 40px;
 }
 
-#writing {
-  width: 500px;
-  margin: auto;
-  padding-top: 20px;
-  text-align: justify;
-  font-size: 20px;
-}
+  #writing {
+      width: 500px;
+      margin: auto;
+      padding-top: 20px;
+      text-align: justify;
+      font-size: 20px;
+  }
 
-#thanks {
-  text-align: center;
-}
+  #bio {
+    padding: 20px;
+  }
+  #thanks {
+      text-align: center;
+  }
 
-#story {
-  display: flex;
-  border: 1px solid white;
-}
+  #story {
+      display: flex;
+      border: 1px solid white;
+  }
+  
+  #story p {
+      flex-direction: row;
+  }
 
-#story p {
-  flex-direction: row;
-}
+  .info {
+    display: flex;
+    justify-content: space-evenly;
+  }
+

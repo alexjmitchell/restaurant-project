@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="../css/reservations.css" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Great+Vibes|Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>A & A Italian Bistro: Reservations</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+          <div class="logo">
+            <p>A & A Italian Bistro</p>
+          </div>
+          <!-- <div class="jumbo-tron">
+            <img src="https://via.placeholder.com/400" />
+          </div> -->
+          <div id="social-media">
+            <!-- <p>Follow Us!</p> -->
+            <ul class="social-media-links">
+              <li>
+                <a href="#" class="icons"><img src="../images/facebook.png"/></a>
+              </li>
+              <li>
+                <a href="#" class="icons"><img src="../images/twitter.png"/></a>
+              </li>
+              <li>
+                <a href="#" class="icons">
+                  <img src="../images/instagram.png" />
+                </a>
+              </li>
+              <li>
+                <a href="#" class="icons"><img src="../images/youtube.png"/></a>
+              </li>
+            </ul>
+          </div>
+        </header>
+  
+        <aside>
+          <div class="nav-bar">
+            <a href="../html/main.html"><button>Home</button></a>
+            <a href="./page.html"><button>Our Story</button></a>
+            <a href="./menu.html"><button>Menu</button></a>
+            <a href="#"><button>Latest&nbsp;News</button></a>
+            <a href="#res"><button>Reservations</button></a>
+            <a href="#"><button>Contact&nbsp;Us</button></a>
+          </div>
+        </aside>
+  
+        <h1> Book Your Reservation </h1>
+
+        <section class="reserve">
+            <form id="res">
+                <label for="name" id="name">Full Name</label> <br>
+                <input type="text" id="name"> <br>
+
+                <label for="guests" id="guests">Number of Guests</label> <br>
+                <input type="number" id="guests"> <br>
+
+                <label for="date" id="date">Date</label> <br>
+                <input type="date" id="date"> <br>
+
+                <label for="notes" id="notes">Special Notes</label> <br>
+                <textarea id="notes" row="50" col="50"></textarea> <br>
+
+                <label for="seating" id="seating">Seating Preference</label> <br>
+                    <select>
+                        <option value="none">No Preference</option>
+                        <option value="indoor">Indoor</option>
+                        <option value="outdoor">Outdoor</option>
+                    </select> <br>
+                
+                <button type="submit">Reserve Table</button>      
+            </form>
+        </section>
+
+        <footer>
+            <div class="info">
+                <p>PH: (702) 560-5326</p>
+                <p>1112 S Casino Center Blvd, Las Vegas, NV 89104</p>
+                <p>EMAIL: mockemail@aaitalianbistro.com</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
