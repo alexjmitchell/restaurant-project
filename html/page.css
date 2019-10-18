@@ -1,0 +1,111 @@
+html {
+box-sizing: border-box;
+font-size: 1rem;
+width: 100%;
+
+background-image: url("../images/mainbgjpg.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+* , *::after, *::before {box-sizing: inherit;
+
+   
+}
+
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    /* background-image: url("../images/main-bg-img.jpg"); */
+    color: white;
+  }
+
+
+
+header {
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+#social-media {
+    margin: 5px;
+    
+  }
+  
+  #social-media ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-media-links li {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .social-media-links:nth-child(1) {
+    color: white;
+  }
+
+.logo {
+    font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+    border: 1px solid transparent;
+    color: white;
+    border-radius: 1000px;
+    width: 1373px;
+    text-align: right;
+    margin: auto;
+    padding-right: 25px;
+    background-image: url(../images/logo.jpg);
+    background-position-x: -2px;
+    background-position-y: -1345px;
+    background-size: 101%;
+    background-repeat: no-repeat;
+  }
+  .nav-bar {
+    display: flex;
+    margin: 10px;
+    margin-top: 30px;
+    justify-content: space-evenly;
+  }
+  
+  .nav-bar button {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+  }
+
+  h1 {
+      text-align: center;
+      font-family: 'Great Vibes', cursive;
+      font-size: 40px;
+  }
+
+  #writing {
+      width: 500px;
+      margin: auto;
+      padding-top: 20px;
+      text-align: justify;
+      font-size: 20px;
+      
+  }
+
+  #thanks {
+      text-align: center;
+  }
+
+  #story {
+      display: flex;
+      border: 1px solid white;
+  }
+  
+  #story p {
+      flex-direction: row;
+  }
