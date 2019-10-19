@@ -17,6 +17,7 @@ dt {
 }
 
 .menu {
+  padding: 50px;
   color: black;
   background: white;
   display: grid;
