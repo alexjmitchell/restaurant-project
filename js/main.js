@@ -14,8 +14,14 @@ $(document).ready(function() {
               ><span class="info">
                 <ul>
                   <li>
-                    <a href="#">
+                    <a>
                       <i class="fa fa-exclamation-circle"></i>
+                      <p class="allergy">
+                      <span>Allergy Warning: <br /></span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            nostrum, vitae architecto corporis voluptas corrupti dignissimos
+            illo, cum inventore vel, ducimus earum cupiditate voluptate dicta?
+          </p>
                     </a>
                   </li>
                   <li>
@@ -51,8 +57,14 @@ $(document).ready(function() {
             ><span class="info">
               <ul>
                 <li>
-                  <a href="#">
+                  <a>
                     <i class="fa fa-exclamation-circle"></i>
+                    <p class="allergy">
+                      <span>Allergy Warning: <br /></span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            nostrum, vitae architecto corporis voluptas corrupti dignissimos
+            illo, cum inventore vel, ducimus earum cupiditate voluptate dicta?
+          </p>
                   </a>
                 </li>
                 <li>
@@ -89,8 +101,14 @@ $(document).ready(function() {
             ><span class="info">
               <ul>
                 <li>
-                  <a href="#">
+                  <a>
                     <i class="fa fa-exclamation-circle"></i>
+                    <p class="allergy">
+                      <span>Allergy Warning: <br /></span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            nostrum, vitae architecto corporis voluptas corrupti dignissimos
+            illo, cum inventore vel, ducimus earum cupiditate voluptate dicta?
+          </p>
                   </a>
                 </li>
                 <li>
@@ -130,5 +148,22 @@ $(document).ready(function() {
     menuFirst()
     menuSecond()
     menuThird()
+    vegetarian()
+  })
+
+  $(".menu").on("click", ".fa-exclamation-circle", function() {
+    var relatedContent = $(this).next()
+
+    if (relatedContent.is(":visible")) {
+      relatedContent.slideUp(600)
+      $(this)
+        .find("active")
+        .removeClass("active")
+    } else {
+      relatedContent.slideDown(600)
+      $(this)
+        .find(".allergy")
+        .addClass("active")
+    }
   })
 })

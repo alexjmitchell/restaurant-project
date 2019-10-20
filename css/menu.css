@@ -14,18 +14,45 @@ html {
 dt {
   color: maroon;
   text-decoration: underline;
+  text-shadow: 1.5px 1.5px #090101;
 }
 
 .menu {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e2e2e2+0,dbdbdb+50,d1d1d1+51,fefefe+100;Grey+Gloss+%231 */
+  background: #e2e2e2; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #e2e2e2 0%,
+    #dbdbdb 50%,
+    #d1d1d1 51%,
+    #fefefe 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #e2e2e2 0%,
+    #dbdbdb 50%,
+    #d1d1d1 51%,
+    #fefefe 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #e2e2e2 0%,
+    #dbdbdb 50%,
+    #d1d1d1 51%,
+    #fefefe 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=0 ); /* IE6-9 */
+
   padding: 50px;
   color: black;
-  background: white;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   text-align: center;
   font-size: 3rem;
   font-family: cursive;
+  border-radius: 10px;
+  text-shadow: 2px 2px #a59a9a;
 }
 
 .menu dd {
@@ -51,7 +78,16 @@ dt {
 }
 
 .fa-exclamation-circle {
-  color: rgb(222, 190, 13);
+  color: rgb(237, 207, 40);
+}
+
+.allergy {
+  color: white;
+  border: black 1px solid;
+  font-size: 1rem;
+  width: 200px;
+  background: rgb(182, 168, 168);
+  display: none;
 }
 
 .fa-pepper-hot {
@@ -59,7 +95,7 @@ dt {
 }
 
 .fa-bread-slice {
-  color: rgb(172, 146, 113);
+  color: rgb(199, 160, 109);
 }
 
 .fa-carrot {
