@@ -17,6 +17,7 @@ dt {
 }
 
 .menu {
+  padding: 50px;
   color: black;
   background: white;
   display: grid;
@@ -24,12 +25,11 @@ dt {
   grid-template-rows: auto;
   text-align: center;
   font-size: 3rem;
+  font-family: cursive;
 }
 
-.menu-appetizers {
-}
-
-.menu-appetizers dd {
+.menu dd {
+  font-size: 2rem;
 }
 
 .menu-price {
@@ -38,7 +38,7 @@ dt {
   flex-direction: column;
 }
 
-.allergy ul {
+.info ul {
   display: flex;
   justify-content: center;
   margin: 0;
@@ -46,7 +46,7 @@ dt {
   padding: 0;
 }
 
-.allergy li {
+.info li {
   margin: 5px;
 }
 
