@@ -25,12 +25,11 @@ dt {
   grid-template-rows: auto;
   text-align: center;
   font-size: 3rem;
+  font-family: cursive;
 }
 
-.menu-appetizers {
-}
-
-.menu-appetizers dd {
+.menu dd {
+  font-size: 2rem;
 }
 
 .menu-price {
