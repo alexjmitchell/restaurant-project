@@ -166,4 +166,36 @@ $(document).ready(function() {
         .addClass("active")
     }
   })
+
+  $(".forward").on("click", function() {
+    let currentImg = $(".active")
+    let nextImg = currentImg.next()
+
+    if (nextImg.length) {
+      currentImg.removeClass("active").css("z-index", -10)
+      nextImg.addClass("active").css("z-index", 10)
+    } else {
+      if (nextImg.length == 0) {
+        nextImg = $("#clams")
+        currentImg.removeClass("active").css("z-index", -10)
+        nextImg.addClass("active").css("z-index", 10)
+      }
+    }
+  })
+
+  $(".back").on("click", function() {
+    let currentImg = $(".active")
+    let previousImg = currentImg.prev()
+
+    if (previousImg.length) {
+      currentImg.removeClass("active").css("z-index", -10)
+      previousImg.addClass("active").css("z-index", 10)
+    } else {
+      if (previousImg.length == 0) {
+        previousImg = $("#cheesecake")
+        currentImg.removeClass("active").css("z-index", -10)
+        previousImg.addClass("active").css("z-index", 10)
+      }
+    }
+  })
 })

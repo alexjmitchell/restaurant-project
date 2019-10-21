@@ -164,6 +164,62 @@ header {
   font-family: "Arial", "Helvetica", sans-serif;
 }
 
+.img-slider h3 {
+  text-align: center;
+}
+
+.img-slider {
+  width: 540;
+  margin: 40px auto;
+  overflow: auto;
+  display: grid;
+  justify-items: center;
+}
+
+.outer-slider {
+  display: flex;
+}
+
+.inner-slider {
+  background: #333;
+  width: 500px;
+  height: 300px;
+  position: relative;
+  padding: 2px;
+  border: #666 1px solid;
+}
+
+.inner-slider img {
+  display: none;
+  width: 500px;
+  height: 300px;
+}
+
+.inner-slider img.active {
+  display: inline-block;
+}
+
+.back,
+.forward {
+  margin-top: 130px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  height: 70px;
+}
+
+.back {
+  position: relative;
+  margin-right: -56px;
+  z-index: 100;
+}
+
+.forward {
+  position: relative;
+  margin-left: -50px;
+  z-index: 100;
+}
+
 /* ----------------- Main-Content ----------------- */
 
 /* ----------------- Footer ----------------- */
