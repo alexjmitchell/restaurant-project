@@ -170,15 +170,22 @@ $(document).ready(function() {
   $(".forward").on("click", function() {
     let currentImg = $(".active")
     let nextImg = currentImg.next()
+    let currentTitle = $(".act")
+    let nextTitle = currentTitle.next()
 
     if (nextImg.length) {
       currentImg.removeClass("active").css("z-index", -10)
       nextImg.addClass("active").css("z-index", 10)
+      currentTitle.removeClass("act").css("z-index", -11)
+      nextTitle.addClass("act").css("z-index", 11)
     } else {
       if (nextImg.length == 0) {
         nextImg = $("#clams")
         currentImg.removeClass("active").css("z-index", -10)
         nextImg.addClass("active").css("z-index", 10)
+        nextTitle = $(".first")
+        currentTitle.removeClass("act").css("z-index", -11)
+        nextTitle.addClass("act").css("z-index", 11)
       }
     }
   })
@@ -186,15 +193,22 @@ $(document).ready(function() {
   $(".back").on("click", function() {
     let currentImg = $(".active")
     let previousImg = currentImg.prev()
+    let currentTitle = $(".act")
+    let previousTitle = currentTitle.prev()
 
     if (previousImg.length) {
       currentImg.removeClass("active").css("z-index", -10)
       previousImg.addClass("active").css("z-index", 10)
+      currentTitle.removeClass("act").css("z-index", -11)
+      previousTitle.addClass("act").css("z-index", 11)
     } else {
       if (previousImg.length == 0) {
         previousImg = $("#cheesecake")
         currentImg.removeClass("active").css("z-index", -10)
         previousImg.addClass("active").css("z-index", 10)
+        previousTitle = $(".last")
+        currentTitle.removeClass("act").css("z-index", -11)
+        previousTitle.addClass("act").css("z-index", 11)
       }
     }
   })
