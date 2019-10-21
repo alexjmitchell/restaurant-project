@@ -101,3 +101,9 @@ dt {
 .fa-carrot {
   color: rgb(216, 86, 38);
 }
+
+.info {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Arial", "Helvetica", sans-serif;
+}
