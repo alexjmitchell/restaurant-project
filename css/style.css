@@ -185,9 +185,8 @@ header {
   width: 500px;
   height: 300px;
   position: relative;
-  padding: 3px;
+  padding: 2px;
   border: #666 1px solid;
-  /* float: left; */
 }
 
 .inner-slider img {
@@ -202,8 +201,9 @@ header {
 
 .back,
 .forward {
-  float: left;
   margin-top: 130px;
+  display: flex;
+  justify-content: center;
   cursor: pointer;
   height: 70px;
 }

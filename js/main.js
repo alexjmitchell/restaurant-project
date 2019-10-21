@@ -174,6 +174,12 @@ $(document).ready(function() {
     if (nextImg.length) {
       currentImg.removeClass("active").css("z-index", -10)
       nextImg.addClass("active").css("z-index", 10)
+    } else {
+      if (nextImg.length == 0) {
+        nextImg = $("#clams")
+        currentImg.removeClass("active").css("z-index", -10)
+        nextImg.addClass("active").css("z-index", 10)
+      }
     }
   })
 
@@ -184,6 +190,12 @@ $(document).ready(function() {
     if (previousImg.length) {
       currentImg.removeClass("active").css("z-index", -10)
       previousImg.addClass("active").css("z-index", 10)
+    } else {
+      if (previousImg.length == 0) {
+        previousImg = $("#cheesecake")
+        currentImg.removeClass("active").css("z-index", -10)
+        previousImg.addClass("active").css("z-index", 10)
+      }
     }
   })
 })
