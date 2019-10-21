@@ -197,6 +197,25 @@ header {
   height: 300px;
 }
 
+.title {
+  position: relative;
+}
+
+.title p {
+  display: none;
+  color: black;
+  padding: 5px;
+  font-size: 1.4rem;
+  background: rgba(255, 255, 255);
+  position: absolute;
+  bottom: -25px;
+  right: -1px;
+}
+
+.title p.act {
+  display: inline-block;
+}
+
 .inner-slider img.active {
   display: inline-block;
 }
